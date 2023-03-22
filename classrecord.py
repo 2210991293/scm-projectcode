@@ -29,7 +29,7 @@ while True:
                 y.append("Not Eligible")
                 z.append(c)
         df["Eligibility"] = y
-        df["Attendance %"] = z
+        df["Attendance %"]=z
         # to find the percentage of students
         S1=int(input("\nEnter the Maximum Marks in each subject: "))
         df1["Total Marks"]=df1.sum(axis = 1, numeric_only = True)
