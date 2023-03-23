@@ -15,7 +15,7 @@ while True:
     df3 = pd.read_excel(r"C:\Users\hp\Desktop\class record.xlsx", sheet_name='EndTerm Exam 1')
     df3.set_index('Roll Number', inplace=True)
     # to check the eligibility of student according to attendance
-    if (str1 == "Ajay Kumar" and str2 == "AjayKumar@22") or (str1 == "Gunjan Thakur" and str2 == "GunjanThakur@22") or (str1 == "Gayatri Koshal" and str2 == "GayatriKoshal@22"):
+    if (str1 == "Sharad Chauhan" and str2 == "AjayKumar@22") or (str1 == "Gunjan Thakur" and str2 == "GunjanThakur@22") or (str1 == "Gayatri Koshal" and str2 == "GayatriKoshal@22"):
         s=["P",]
         y=[]
         z=[]
