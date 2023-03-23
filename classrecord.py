@@ -125,7 +125,7 @@ while True:
                     elif s == "Python":
                         print(df5)
                     else:
-                        print("Subject Not Found")
+                        print("Not able to found the subject")
                         break
             else:
                 print("Invalid TestName")
