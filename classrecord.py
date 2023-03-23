@@ -152,7 +152,7 @@ while True:
                 data5 = df2.loc[S5]
                 print("\nStudent Result: \n\n",data5)
             elif test == "Show Overall Progress Report":
-                S5=int(input("Enter the Student Roll Number: "))
+                S5=int(input("roll number: "))
                 x1=[]
                 for i in df6.columns:
                     x1.append(i)
